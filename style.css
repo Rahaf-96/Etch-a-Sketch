@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to right, rgb(238, 176, 186) , white); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px rgb(238, 176, 186);
+}
+
+#container{
+    display: grid;
+    gap: 0;
+    width: 500px;
+    height: 500px;
+    margin: 0  auto;
+    border: 5px ridge rgb(238, 176, 186) ;
+    background-color: black;  
+}
+
+
+button{
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px #fff;
+    background-color: rgb(238, 176, 186);
+    outline: none;
+    margin: 5px 5px 5px 5px;
+}
+
+button:active {
+    background-color: rgb(238, 176, 186);
+    box-shadow: 0 0 #fff;
+    transform: translateY(4px);
+  }
+
+.buttons{
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+.grid-cell{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px solid rgb(238, 176, 186);
+}
+
+/*img{
+    width: 200px;
+    height: 200px;
+}*/
