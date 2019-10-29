@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, rgb(238, 176, 186) , white) no-repeat; 
+    background: linear-gradient(to right, rgb(238, 176, 186) , white) ; 
     background-size: cover;
     margin: 0;
     padding: 0;
