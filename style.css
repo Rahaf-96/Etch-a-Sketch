@@ -59,3 +59,20 @@ button:active {
 }
 
 
+@media (max-width:500px) {
+    /* For mobile phones: */
+    body {
+    background-size: 600px 1180px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    #container{
+        width: 350px;
+        height: 500px;
+    }
+
+  }
