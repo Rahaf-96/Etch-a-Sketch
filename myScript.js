@@ -6,7 +6,6 @@ function createGrid(size) {
     for (let i = 0; i < size ** 2; i++) {                                   
         var gridCell = document.createElement('div');                       
         gridCell.classList.add('grid-cell');                               
-        gridCell.style.opacity = "1";                                   
         container.appendChild(gridCell);  
     }
 }
